@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+dist/
+build/
+realm-electron-mas-arm64/
+
 # testing
 /coverage
 
