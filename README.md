@@ -8,6 +8,7 @@ This is not the case in realm@11.3.0. Eventhough the application is running in b
 
 ---
 
+
 ### Prerequisites
 
 Node V16+
@@ -51,3 +52,32 @@ For that you can click **retry** in the popup.
 This happens with the latest version or version after **realm@11.3.0**
 
 If the realm@11.3.0 is used the application, if we try to install/update any newer version,it automatically closes and installs the updated version without any issues.
+
+---
+
+### To skip all steps above. 
+
+There is a folder **reproduction-exe** which contains two executable files
+
+**RealmElectron Setup 1.0.0.exe (using realm@11.9.0)**
+
+**RealmElectron Setup 3.0.0.exe (using realm@11.3.0)**
+
+---
+
+Case - 1
+
+1 - Install and open the application **RealmElectron Setup 1.0.0.exe**
+
+2 - Now try to install the exe **RealmElectron Setup 3.0.0.exe**. Now windows will ask you to close the existing application with a popup, even though you retry n number of times, the application will not close. So you have to manually close the process **RealmElectron** in the Task manager.
+
+---
+
+Case -  2 (Make sure no version is installed)
+
+1 - Install and open the application **RealmElectron Setup 3.0.0.exe**
+
+2 - Now try to install the exe **RealmElectron Setup 1.0.0.exe**. This will succeed and updates the application since the existing version of application uses **realm@11.3.0**
+
+---
+
