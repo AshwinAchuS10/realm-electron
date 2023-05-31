@@ -4,13 +4,16 @@
 App cannot be closed. Please close it manually and Retry to continue popup rises
 Even after retrying, it doesn't works. Once the process is killed manually in task manager. The updated application can be installed.
 
-This is not the case in realm@11.3.0. Eventhough the application is running in background, it automatically closes and installs the update without any issues.
+This is not the case in realm@11.3.0. Eventhough the application is running in background, it automatically closes and installs the update without any issues
+
 ---
 
 ### Prerequisites
 
 Node V16+
+
 Windows OS
+
 ---
 
 ##### Steps to Reproduce issue with Realm@11.9.0
