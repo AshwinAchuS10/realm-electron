@@ -1,6 +1,6 @@
 {
    "name": "realm-electron",
-   "version": "2.0.0",
+   "version": "1.0.0",
    "description": "Realm Electron App",
    "author": "Ashwin S",
    "main": "main.js",
@@ -18,7 +18,7 @@
       "path": "^0.12.7",
       "react": "^18.2.0",
       "react-dom": "^18.2.0",
-      "realm": "^11.3.0",
+      "realm": "^11.9.0",
       "wait-on": "^7.0.1"
    },
    "devDependencies": {
